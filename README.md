@@ -11,16 +11,16 @@
 
 <!-- <h4 align="center">A minimal Markdown Editor desktop app built on top of <a target="_blank">Electron</a>.</h4> -->
 
-![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4?raw=true)
-![screenshot](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4?raw=true)
+![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/theapp.PNG?raw=true)
+<!-- ![screenshot](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4?raw=true)
 
-https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4
+https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4 -->
 
 
-This application is used to create a picker date with a custom appearance according to the client, then output a value in the Date format.
+This application is used to export excel data to json, with the input offset, this input is used to select row 1 - the offset is not considered, so offset + 1 becomes the key of the json data
 
-<!-- ## Example Data
-- Data Value
+## Example Data
+<!-- - Data Value
 
             [
                 {
@@ -70,6 +70,8 @@ This application is used to create a picker date with a custom appearance accord
                 }
             ] -->
 
+offset = 1
+
 ## Usage example
 
 <table>
@@ -79,7 +81,24 @@ This application is used to create a picker date with a custom appearance accord
 
 
 
-just like the usual date picker, first click the date picker application then a calendar pop up will appear, select the date you want, then the date data will change.
+
+Click the button with the words "Input Excell", then a pop up will appear to select the excel file you want to export, don't worry, the popup will automatically be in excel type.
+We give an example of excel input as below:
+![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/exampleinput.PNG?raw=true)
+
+the pop up : 
+
+![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/popup.PNG?raw=true)
+
+ after selecting, the json file will be downloaded, with the same name as the excel file.
+ 
+ ![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/downloadedjson.PNG?raw=true)
+
+with data like below:
+
+ ![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/outputopen.PNG?raw=true)
+ 
+  and also to reset the previous file, there is an X button to remove the previously saved file.
 
 
 </td>
