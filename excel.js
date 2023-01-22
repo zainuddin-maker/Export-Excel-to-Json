@@ -125,13 +125,10 @@ document.getElementById("inputexcel").addEventListener("change", (event) => {
             var blob = new Blob([jsonse], {type: "application/json"});
             var url  = URL.createObjectURL(blob);
           
-            var a = document.createElement('a');
-            a.href        = url;
-            a.download    = "backup.json";
-            a.textContent = "Download backup.json";
+          
 
             var link = document.createElement("a");
-            link.download = "backup.json";
+            link.download = selectedFile.name.split(".")[0]  +".json";
             link.href = url;
             document.body.appendChild(link);
             link.click();

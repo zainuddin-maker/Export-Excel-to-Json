@@ -11,8 +11,10 @@
 
 <!-- <h4 align="center">A minimal Markdown Editor desktop app built on top of <a target="_blank">Electron</a>.</h4> -->
 
-![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON%20.mp4?raw=true)
-<!-- ![screenshot](https://github.com/zainuddin-maker/Double-Y-Bar-With-Line-Chart-/blob/master/test.gif?raw=true) -->
+![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4?raw=true)
+![screenshot](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4?raw=true)
+
+https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/Convert_excel_to_JSON.mp4
 
 
 This application is used to create a picker date with a custom appearance according to the client, then output a value in the Date format.
