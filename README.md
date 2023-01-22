@@ -97,7 +97,11 @@ the pop up :
 with data like below:
 
  ![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/outputopen.PNG?raw=true)
- 
+
+and the button will change the text .
+
+ ![Chat Preview](https://github.com/zainuddin-maker/Export-Excel-to-Json/blob/master/outputopen.PNG?raw=true)
+
   and also to reset the previous file, there is an X button to remove the previously saved file.
 
 
